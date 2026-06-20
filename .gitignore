@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# System / OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive Financial Data
+admin/finances/*.csv
+admin/finances/*.xlsx
+admin/finances/*.json
+# Prevent ignoring the directory itself so empty folder structure can be tracked
+!admin/finances/
+!admin/finances/.gitkeep
+
+# Sensitive Client Agreements & Deliverables (PII Protection)
+# Allow markdown draft proposals/agreements but ignore signed/executed documents
+admin/legal/signed_*
+admin/legal/*.pdf
+clients/**/proposals/signed_*
+clients/**/deliverables/signed_*
+clients/**/*.pdf
+
+# Temporary files or Local JSON parameters for helpers
+projects/internal/agent-helper/*.json
+*.json.tmp
