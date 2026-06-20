@@ -19,7 +19,7 @@ When working in this repository, follow these core principles:
 1. **Strategic Planning First**: Always discuss and plan folder layouts, operational workflows, and major changes with the user before executing.
 2. **Business & Tech Integration**: Maintain a clean separation between administrative business files (clients, finances, legal docs) and technical codebase files (applications, packages, scripts), while ensuring they are easily cross-referenced.
 3. **Data Privacy & Security**: Treat all client data, financial logs, and legal files with strict confidentiality. Avoid hardcoding sensitive keys, credentials, or personal identification information (PII).
-4. **Iterative Refinement**: Update this `gemini.md` file as the business evolves, adding new operational guidelines, project directories, and tool workflows.
+4. **Iterative Refinement & Self-Maintenance**: Update this `gemini.md` and the root `README.md` in sync whenever the business structure evolves, new directories/projects are added, or operational script workflows are created or modified. Keep documentation as a live, accurate operations manual.
 
 ---
 
